@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font aweson icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <title>Prem Portfolio web site</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- dark mode button -->
+
+      <input type="checkbox" id="darkMode" />
+
+      <div class="wrapper">
+        <label for="darkMode" class="dark-mode-toggle">
+          <i class="fa-solid fa-circle-half-stroke"></i>
+        </label>
+
+        <!-- header section  -->
+        <header>
+          <div class="container flex header">
+            <div class="logo flex">
+              <div>
+                <h1>Kiran</h1>
+              </div>
+              <div>
+                <h1 class="line">Soft. Engineer</h1>
+              </div>
+            </div>
+            <div class="menu">
+              <input type="checkbox" id="check" />
+              <label for="check" class="menu-icon">
+                <i class="fa-solid fa-bars"></i>
+              </label>
+              <ul class="navigation flex">
+                <li><a href="">Home</a></li>
+                <li><a href="">Skills </a></li>
+                <li><a href="">Projects </a></li>
+                <li><a href="">About </a></li>
+                <li><a href="">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </header>
+
+        <!-- hero section  -->
+        <section class="container hero-section">
+          <div class="hero">
+            <div class="flex left">
+              <div>
+                Hi i'm
+                <span class="name">Kiran sitaula</span>
+              </div>
+              <div class="tag">Soft. Engineer</div>
+              <p>I love coding.</p>
+              <div>
+                <button>
+                  Download CV <i class="fa-solid fa-download"></i>
+                </button>
+              </div>
+            </div>
+            <div class="right flex">
+              <img src="./assets/imgs/user.png" alt="profile images" />
+            </div>
+          </div>
+        </section>
+
+        <!-- Bannder section  -->
+        <section class="flex banner container">
+          <!-- award -->
+            <div class="info-content flex">
+              <div class="icon-container flex">
+                <i class="fa-solid fa-award"></i>
+              </div>
+              <div>
+                <span> IT</span>
+                <p>graduate</p>
+              </div>
+            </div>
+        <!-- divider -->
+        <div class="info-divider"></div>
+<!-- 1 -->
+        <div class="info-content flex">
+          <div class="icon-container flex">
+            <i class="fa-solid fa-award"></i>
+          </div>
+          <div>
+            <span> 5+ projects</span>
+            <p>completed</p>
+          </div>
+        </div>
+<!-- 2 -->
+      <div class="info-divider"></div>
+        <div class="info-content flex">
+          <div class="icon-container flex">
+            <i class="fa-solid fa-award"></i>
+          </div>
+          <div>
+            <span> 1 year</span>
+            <p>Experience</p>
+          </div>
+        </div>
+        </section>
+
+        <!-- Skills section  -->
+        <section class="skills container flex">
+        <div>
+          <i class="fa-brands fa-html5"></i>
+          <span>HTML</span>
+        </div>
+
+        <div>
+          <i class="fa-brands fa-css3"></i>
+          <span>CSS</span>
+        </div>
+
+        <div>
+          <i class="fa-brands fa-js"></i>
+          <span>Javascript</span>
+        </div>
+
+        <div>
+          <i class="fa-brands fa-github"></i>          <span>Github</span>
+        </div>
+
+        <div>
+          <i class="fa-brands fa-figma"></i>
+          <span>Figma</span>
+        </div>
+      </section>
+
+        <!-- Projects section  -->
+        <section class="projects">
+          <h2 class="title">My recent works</h2>
+          <div class="projects-container grid">
+            <div class="project-card flex">
+              <div class="top">
+                <img src="./assets/imgs/project.png" alt="">
+              </div>
+              <div class="bottom">
+                <h3>Full-stack web app Build with recent</h3>
+                <p>14 april 20223</p>
+              </div>
+            </div>
+            <div class="project-card flex">
+              <div class="top">
+                <img src="./assets/imgs/project.png" alt="project" />
+              </div>
+              <div class="bottom container">
+                <h3>Full-Stack Web App Build with React</h3>
+                <p>20 April 2023</p>
+              </div>
+            </div>
+            <div class="project-card flex">
+              <div class="top">
+                <img src="./assets/imgs/project.png" alt="project" />
+              </div>
+              <div class="bottom container">
+                <h3>Full-Stack Web App Build with React</h3>
+                <p>20 April 2023</p>
+              </div>
+            </div>
+            <div class="project-card flex">
+              <div class="top">
+                <img src="./assets/imgs/project.png" alt="project" />
+              </div>
+              <div class="bottom container">
+                <h3>Full-Stack Web App Build with React</h3>
+                <p>20 April 2023</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- About me section  -->
+        <section class="about-me">
+            <h2 class="title">About me</h3>
+          <div class="about container flex">
+            <div>
+              <img class="myimg" src="./assets/imgs/user.png" alt="">
+            </div>
+            <div class="content container flex">
+              <div>
+                <h2>Kiran Sitaula</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat placeat, ex officia nam magni atque pariatur explicabo quam veniam ducimus similique fuga, adipisci vero delectus excepturi? Excepturi optio a necessitatibus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni suscipit quas neque tempora ex corporis dignissimos, molestiae laboriosam nobis quae unde accusantium eveniet ad aspernatur sed laborum ullam? Sunt, cupiditate!</p>
+
+                <P>Sydney, Australia</P>
+              </div>
+              <div class="intrest">
+                <h3>intrests</h3>
+                <span>coding</span>
+                <span>Football</span> 
+                <span>Movie</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Contact me section  -->
+        <section class="contact">
+          <div class="contact-me flex">
+            <div class="contact-text"> 
+              <h2 class="title"> Get in touch</h2>
+            </div>
+            
+            <div class="icon flex">
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube" style="color: #ff2600;"></i>            </div>
+            <h2 class="title">OR</h2>
+            <a href="mailto:abc@gmail.com">
+            <div class=" email flex">
+              <span>abc@gmail.com</span>
+              <i class="fa-solid fa-paper-plane"></i>
+            </div>
+          </a>
+          </div>
+        </section>
+
+        <!-- footer section -->\
+        <footer class="footer">
+          <div class="container ">
+            <div class="top flex">
+              <div class="links">
+                <h3>links</h3>
+                <ul>
+                  <li>
+                    <a href="">Home</a>
+                  </li>
+                  <li>
+                    <a href="">Skills</a>
+                  </li><li>
+                    <a href="">projects</a>
+                  </li><li>
+                    <a href="">contact</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class=" social links">
+                <h3> social links</h3>
+                <ul>
+                  <li>
+                    <a href="">LinkedIN</a>
+                  </li>
+                  <li>
+                    <a href="">Facebook</a>
+                  </li><li>
+                    <a href="">projects</a>
+                  </li><li>
+                    <a href="">contact</a>
+                  </li>
+                </ul>
+                <p>@copyright Lorem ipsum, dolor</p>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
